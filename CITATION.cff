@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below and cite the HEAPO dataset separately."
+title: "HEAPO Uncertainty-Aware Multi-Horizon Forecasting"
+abstract: >-
+  A reproducible Python pipeline for probabilistic multi-horizon forecasting
+  of air-source and ground-source heat-pump electricity demand using HEAPO,
+  including conformal calibration, household-level validation, bootstrap
+  inference, virtual portfolios, and peak-management scenarios.
+type: software
+version: 1.0.0
+date-released: 2026-08-10
+authors:
+  - name: "HEAPO forecasting study contributors"
+license: MIT
+keywords:
+  - heat pump
+  - probabilistic forecasting
+  - conformal prediction
+  - demand response
+  - LightGBM
+  - Temporal Fusion Transformer

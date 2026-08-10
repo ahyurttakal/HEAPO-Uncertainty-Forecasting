@@ -1,0 +1,17 @@
+project:
+  run_name: heapo_main
+
+data:
+  # Use forward slashes or quote escaped backslashes on Windows.
+  root: "C:/path/to/heapo_data"
+  weather_scenario: operational
+
+# `full` runs TFT and reuses a checkpoint already present in the run's tft
+# folder. Use `suite` to run operational and oracle weather separately.
+models:
+  tft:
+    enabled: true
+    reuse_existing_checkpoint: true
+
+statistics:
+  bootstrap_repetitions: 1000
