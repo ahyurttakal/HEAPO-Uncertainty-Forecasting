@@ -235,8 +235,3 @@ repository and data record. If you use this software, use the metadata in
 [`CITATION.cff`](CITATION.cff). The code is released under the
 [`MIT License`](LICENSE); no HEAPO data are included.
 
-## Contributing
-
-Bug reports and focused pull requests are welcome. Do not commit HEAPO data,
-model checkpoints, generated results, or personal paths. See
-[`CONTRIBUTING.md`](CONTRIBUTING.md).
