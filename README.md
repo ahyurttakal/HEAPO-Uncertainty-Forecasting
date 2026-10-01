@@ -1,6 +1,5 @@
 # HEAPO Uncertainty-Aware Forecasting
 
-[![CI](https://github.com/ahyurttakal/HEAPO-Uncertainty-Forecasting/actions/workflows/ci.yml/badge.svg)](https://github.com/ahyurttakal/HEAPO-Uncertainty-Forecasting/actions/workflows/ci.yml)
 [![Python 3.11–3.12](https://img.shields.io/badge/python-3.11--3.12-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
