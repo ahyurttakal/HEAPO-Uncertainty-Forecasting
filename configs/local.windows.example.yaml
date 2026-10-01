@@ -1,0 +1,17 @@
+project:
+  run_name: heapo_analysis
+
+data:
+  # Use forward slashes or quote escaped backslashes on Windows.
+  root: "C:/path/to/heapo_data"
+  weather_scenario: operational
+
+# `full` trains TFT from scratch. Checkpoints are not reused across runs unless
+# their data boundaries and configuration signatures are independently verified.
+models:
+  tft:
+    enabled: true
+    reuse_existing_checkpoint: false
+
+statistics:
+  bootstrap_repetitions: 10000

@@ -1,0 +1,8 @@
+reason,households
+target_missingness,1329
+insufficient_days,1320
+insufficient_heating_seasons,1318
+no_separate_hp_meter,1314
+eligible,63
+unknown_hp_type,53
+missing_meter_file,1

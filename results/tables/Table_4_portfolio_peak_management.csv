@@ -1,0 +1,12 @@
+﻿Model,Decision strategy,Valid portfolio strata,Forecast origins,Mean peak reduction (%),False interventions per 100 origins,Missed events per 100 origins,Interventions per origin,Mean load-factor change
+Persistence,Conformal upper bound,7,13544,-0.058,9.288,15.306,1.579,-0.000
+Elastic Net,Conformal upper bound,7,13544,-0.091,1.728,16.037,1.420,-0.000
+LightGBM,Conformal upper bound,7,13544,-0.133,2.717,16.376,1.605,-0.001
+Weekly seasonal,Conformal upper bound,7,13544,-1.481,29.496,0.281,6.349,-0.008
+Daily seasonal,Conformal upper bound,7,13544,-1.520,26.174,0.421,6.023,-0.008
+Elastic Net,Median forecast,7,13544,0.001,0.000,35.994,0.114,0.000
+LightGBM,Median forecast,7,13544,0.000,0.000,37.256,0.000,0.000
+Persistence,Median forecast,7,13544,0.000,0.081,33.535,0.000,0.000
+Daily seasonal,Median forecast,7,13544,-0.847,6.106,6.387,2.607,-0.004
+Weekly seasonal,Median forecast,7,13544,-1.232,5.885,8.365,2.340,-0.006
+Perfect foresight,Perfect foresight (diagnostic),7,13544,5.248,0.000,0.000,2.435,0.024

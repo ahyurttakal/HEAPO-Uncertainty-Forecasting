@@ -1,0 +1,14 @@
+﻿Model family,Evaluation stratum,Horizon,Candidate,Comparator,Independent households,Primary delta MAE,Primary 95% CI low,Primary 95% CI high,Primary Holm p,Nested delta MAE,Nested 95% CI low,Nested 95% CI high,Nested Holm p,Robust in both designs,Direction
+Tabular,Seen households — ASHP,15 min,LightGBM,Elastic Net,29,-0.018,-0.025,-0.010,0.003,-0.018,-0.026,-0.009,0.003,True,Candidate better
+Tabular,Seen households — ASHP,1 h,LightGBM,Persistence,29,-0.042,-0.063,-0.023,0.003,-0.042,-0.065,-0.021,0.003,True,Candidate better
+Tabular,Seen households — ASHP,1 h,LightGBM,Weekly seasonal,29,-0.027,-0.040,-0.013,0.003,-0.027,-0.044,-0.010,0.051,False,Candidate better
+Tabular,Seen households — ASHP,1 h,LightGBM,Elastic Net,29,-0.024,-0.032,-0.018,0.003,-0.024,-0.033,-0.017,0.003,True,Candidate better
+Tabular,Seen households — ASHP,6 h,LightGBM,Persistence,29,-0.071,-0.091,-0.052,0.003,-0.071,-0.092,-0.050,0.003,True,Candidate better
+Tabular,Seen households — ASHP,6 h,LightGBM,Elastic Net,29,-0.020,-0.028,-0.013,0.003,-0.020,-0.029,-0.013,0.003,True,Candidate better
+Tabular,Seen households — ASHP,24 h,LightGBM,Elastic Net,29,-0.019,-0.025,-0.013,0.003,-0.019,-0.026,-0.011,0.003,True,Candidate better
+TFT,Seen households — ASHP,15 min,TFT,Weekly seasonal,29,0.048,0.019,0.078,0.003,0.048,0.012,0.085,0.081,False,Candidate worse
+TFT,Seen households — ASHP,15 min,TFT,LightGBM,29,0.031,0.017,0.047,0.003,0.031,0.015,0.050,0.003,True,Candidate worse
+TFT,Seen households — ASHP,6 h,TFT,Persistence,29,-0.061,-0.089,-0.034,0.003,-0.061,-0.099,-0.025,0.006,True,Candidate better
+TFT,Seen households — ASHP,6 h,TFT,Weekly seasonal,29,0.047,0.023,0.074,0.003,0.047,0.013,0.085,0.088,False,Candidate worse
+TFT,Seen households — ASHP,6 h,TFT,LightGBM,29,0.026,0.014,0.037,0.003,0.026,0.010,0.041,0.027,True,Candidate worse
+TFT,Seen households — ASHP,24 h,TFT,LightGBM,29,0.026,0.012,0.041,0.005,0.026,0.009,0.044,0.042,True,Candidate worse

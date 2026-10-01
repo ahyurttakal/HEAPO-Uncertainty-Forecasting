@@ -1,0 +1,45 @@
+min_calibration_samples,portfolio_type,portfolio_size,model_horizon_cells,valid_cells,valid_cell_fraction,all_cells_reportable,calibration_n_min,calibration_n_median,calibration_n_max,calibration_rows_min,calibration_rows_max,exclusion_reason
+20,ASHP,4,480,480,1.0,True,120,120.0,120,980,980,
+20,ASHP,5,480,480,1.0,True,58,58.0,58,232,232,
+20,ASHP,10,480,480,1.0,True,120,120.0,120,628,628,
+20,ASHP,25,480,0,0.0,False,12,12.0,12,88,88,independent origins below 20
+20,GSHP,4,480,480,1.0,True,120,120.0,120,768,768,
+20,GSHP,5,480,480,1.0,True,120,120.0,120,270,270,
+20,GSHP,10,480,480,1.0,True,42,42.0,42,270,270,
+20,mixed,4,480,480,1.0,True,120,120.0,120,736,736,
+20,mixed,5,480,480,1.0,True,120,120.0,120,782,782,
+20,mixed,10,480,480,1.0,True,120,120.0,120,592,592,
+20,mixed,25,480,0,0.0,False,12,12.0,12,128,128,independent origins below 20
+30,ASHP,4,480,480,1.0,True,120,120.0,120,980,980,
+30,ASHP,5,480,480,1.0,True,58,58.0,58,232,232,
+30,ASHP,10,480,480,1.0,True,120,120.0,120,628,628,
+30,ASHP,25,480,0,0.0,False,12,12.0,12,88,88,independent origins below 30
+30,GSHP,4,480,480,1.0,True,120,120.0,120,768,768,
+30,GSHP,5,480,480,1.0,True,120,120.0,120,270,270,
+30,GSHP,10,480,480,1.0,True,42,42.0,42,270,270,
+30,mixed,4,480,480,1.0,True,120,120.0,120,736,736,
+30,mixed,5,480,480,1.0,True,120,120.0,120,782,782,
+30,mixed,10,480,480,1.0,True,120,120.0,120,592,592,
+30,mixed,25,480,0,0.0,False,12,12.0,12,128,128,independent origins below 30
+50,ASHP,4,480,480,1.0,True,120,120.0,120,980,980,
+50,ASHP,5,480,480,1.0,True,58,58.0,58,232,232,
+50,ASHP,10,480,480,1.0,True,120,120.0,120,628,628,
+50,ASHP,25,480,0,0.0,False,12,12.0,12,88,88,independent origins below 50
+50,GSHP,4,480,480,1.0,True,120,120.0,120,768,768,
+50,GSHP,5,480,480,1.0,True,120,120.0,120,270,270,
+50,GSHP,10,480,0,0.0,False,42,42.0,42,270,270,independent origins below 50
+50,mixed,4,480,480,1.0,True,120,120.0,120,736,736,
+50,mixed,5,480,480,1.0,True,120,120.0,120,782,782,
+50,mixed,10,480,480,1.0,True,120,120.0,120,592,592,
+50,mixed,25,480,0,0.0,False,12,12.0,12,128,128,independent origins below 50
+100,ASHP,4,480,480,1.0,True,120,120.0,120,980,980,
+100,ASHP,5,480,0,0.0,False,58,58.0,58,232,232,independent origins below 100
+100,ASHP,10,480,480,1.0,True,120,120.0,120,628,628,
+100,ASHP,25,480,0,0.0,False,12,12.0,12,88,88,independent origins below 100
+100,GSHP,4,480,480,1.0,True,120,120.0,120,768,768,
+100,GSHP,5,480,480,1.0,True,120,120.0,120,270,270,
+100,GSHP,10,480,0,0.0,False,42,42.0,42,270,270,independent origins below 100
+100,mixed,4,480,480,1.0,True,120,120.0,120,736,736,
+100,mixed,5,480,480,1.0,True,120,120.0,120,782,782,
+100,mixed,10,480,480,1.0,True,120,120.0,120,592,592,
+100,mixed,25,480,0,0.0,False,12,12.0,12,128,128,independent origins below 100

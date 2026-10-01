@@ -1,0 +1,7 @@
+﻿Cohort,Total,ASHP,GSHP,Unknown HP type,Role
+Complete HEAPO dataset,1408,778,576,54,Source population
+Eligible households,63,45,18,0,Analysis cohort
+Training households,43,31,12,0,Model development
+Unseen validation households,7,5,2,0,Household-level validation
+Unseen test households,13,9,4,0,Final generalization test
+Independent households in seen test,41,29,12,0,Primary within-household inference
