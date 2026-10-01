@@ -1,24 +1,62 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it using the metadata below and cite the HEAPO dataset separately."
-title: "HEAPO Uncertainty-Aware Multi-Horizon Forecasting"
+
+message: >-
+  If you use this software, please cite this repository and the associated
+  manuscript. The HEAPO dataset should be cited separately using its original
+  publication and data source.
+
+title: "HEAPO Uncertainty Forecasting"
+
 abstract: >-
-  A reproducible Python pipeline for probabilistic multi-horizon forecasting
-  of air-source and ground-source heat-pump electricity demand using HEAPO,
-  including conformal calibration, household-level validation, bootstrap
-  inference, virtual portfolios, and peak-management scenarios.
+  Reproducible Python code accompanying the study
+  "Residential Heat-Pump Electricity Forecasting: Generalisation to Unseen
+  Households, Interval Calibration and Peak Management". The workflow evaluates
+  15-min air-source and ground-source heat-pump electricity demand using
+  chronological and household-disjoint testing. It includes persistence and
+  seasonal benchmarks, Elastic Net, LightGBM, Temporal Fusion Transformer,
+  probabilistic forecasting, conformal interval recalibration, household-level
+  bootstrap inference, SHAP-based model interpretation, virtual portfolio
+  construction, and forecast-driven peak-management experiments with a
+  perfect-foresight diagnostic.
+
 type: software
+
 version: 1.0.0
+
 date-released: 2026-10-01
+
 authors:
+  - family-names: Sezer
+    given-names: Taha
   - family-names: Yurttakal
-    given-names: Ahmet
+    given-names: Ahmet Haşim
+
 repository-code: "https://github.com/ahyurttakal/HEAPO-Uncertainty-Forecasting"
+
 url: "https://github.com/ahyurttakal/HEAPO-Uncertainty-Forecasting"
+
 license: MIT
+
 keywords:
   - heat pump
+  - electricity demand forecasting
   - probabilistic forecasting
+  - multi-horizon forecasting
+  - household-disjoint evaluation
   - conformal prediction
-  - demand response
+  - uncertainty calibration
   - LightGBM
   - Temporal Fusion Transformer
+  - demand response
+  - peak management
+
+preferred-citation:
+  type: article
+  title: >-
+    Residential Heat-Pump Electricity Forecasting: Generalisation to Unseen
+    Households, Interval Calibration and Peak Management
+  authors:
+    - family-names: Sezer
+      given-names: Taha
+    - family-names: Yurttakal
+      given-names: Ahmet
